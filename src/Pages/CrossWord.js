@@ -20,11 +20,11 @@ export default function CrossWord(props){
         <div>
 
         <Breadcrumb>
-        <Breadcrumb.Item onClick={()=>{setPage('DashBoard')}} style={{color: 'grey'}}>Dashboard</Breadcrumb.Item>
-        <Breadcrumb.Item onClick={()=>{setPage('Games')}} style={{color: 'grey'}}>
+        <Breadcrumb.Item onClick={()=>{setPage('DashBoard')}} style={{color: '#00A0D7'}}>Dashboard</Breadcrumb.Item>
+        <Breadcrumb.Item onClick={()=>{setPage('Games')}} style={{color: '#00A0D7'}}>
             Games Hub
         </Breadcrumb.Item>
-        <Breadcrumb.Item style={{color: '#00A0D7'}}>Cross Word Game</Breadcrumb.Item>
+        <Breadcrumb.Item style={{color: 'grey'}}>Cross Word Game</Breadcrumb.Item>
         </Breadcrumb>
 
         <iframe src="https://seemasb.github.io/CrossWordDrag/" className="myFrame"></iframe>

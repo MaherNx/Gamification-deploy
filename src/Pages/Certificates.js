@@ -8,8 +8,8 @@ export default function Certificate(props){
         <div>
 
         <Breadcrumb>
-        <Breadcrumb.Item onClick={()=>{setPage('DashBoard')}} style={{color: 'grey'}}>Dashboard</Breadcrumb.Item>
-        <Breadcrumb.Item onClick={()=>{setPage('Certificate')}} style={{color: '#00A0D7'}}>
+        <Breadcrumb.Item onClick={()=>{setPage('DashBoard')}} style={{color: '#00A0D7'}}>Dashboard</Breadcrumb.Item>
+        <Breadcrumb.Item onClick={()=>{setPage('Certificate')}} style={{color: 'grey'}}>
             Certificate
         </Breadcrumb.Item>
         </Breadcrumb>

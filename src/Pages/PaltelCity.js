@@ -17,11 +17,11 @@ export default function PaltelCity(props){
     return(
         <div>
             <Breadcrumb>
-        <Breadcrumb.Item onClick={()=>{setPage('DashBoard')}} style={{color: 'grey'}}>Dashboard</Breadcrumb.Item>
-        <Breadcrumb.Item onClick={()=>{setPage('Games')}} style={{color: 'grey'}}>
+        <Breadcrumb.Item onClick={()=>{setPage('DashBoard')}} style={{color: '#00A0D7'}}>Dashboard</Breadcrumb.Item>
+        <Breadcrumb.Item onClick={()=>{setPage('Games')}} style={{color: '#00A0D7'}}>
             Games Hub
         </Breadcrumb.Item>
-        <Breadcrumb.Item style={{color: '#00A0D7'}}>Paltel City Game</Breadcrumb.Item>
+        <Breadcrumb.Item style={{color: 'grey'}}>Paltel City Game</Breadcrumb.Item>
         </Breadcrumb>
             {/* <iframe src="https://play.unity.com/mg/other/paltel-city-1"></iframe> */}
             {/* <Unity unityContext={unityContext} /> */}
