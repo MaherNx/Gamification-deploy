@@ -1,0 +1,115 @@
+.Games{
+    background-color: #FFEA22;
+    border-radius: 20px;
+    height: 85vh;
+    padding-left: 45px;
+}
+.Purple{
+    background-color: #8331A7;
+    border-radius: 20px;
+    height: 85vh;
+    padding-left: 45px;
+}
+.Pink{
+    background-color: #F45197;
+    border-radius: 20px;
+    height: 85vh;
+    padding-left: 45px;
+}
+
+.Blue{
+    background-color: #00A0D7;
+    border-radius: 20px;
+    height: 85vh;
+    padding-left: 45px;
+}
+
+.PaltelCityCont{
+    display: inline;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    height: 52vh;
+}
+
+.CardsCont img{
+    margin-left: 74px;
+    margin-top: 36px;
+}
+
+
+
+.PaltelCityCont span{
+    font-family: Neo Sans Arabic;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 49px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    color: #00A0D7;
+    margin-top: 70px;
+    /* margin-left: 38px; */
+}
+
+.PaltelCityCont button{
+    font-family: Neo Sans Arabic;
+    width: 167px;
+    height: 45px;
+    background: #00A0D7;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+    /* margin-left: 38px; */
+}
+
+.PaltelCityCont img {
+    width: 80%;
+    margin-top: 19px;
+    /* margin-bottom: 42px; */
+
+}
+.games_slider{
+/* margin-left: 20px; */
+/* margin: auto;
+width: 100%; */
+text-align: -webkit-center;
+}
+
+.games_slider img{
+    width: 21%;
+    object-fit: cover;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.row{
+    margin: 0 !important ;
+}
+
+
+
+.ColAuto {
+    flex: 0 0 auto;
+    width: auto;
+    text-align-last: center;
+}
+
+.Col4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding-left: 38px;
+}
+
+.unity_frame{
+    width: 100%;
+}

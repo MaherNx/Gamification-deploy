@@ -1,0 +1,101 @@
+
+
+.center_align{
+    text-align-last: center;
+}
+
+.center_align div div span{
+    font-family: Neo Sans Arabic;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+/* line-height: 43px;
+display: flex; */
+align-items: center;
+text-align: center;
+
+color: #00A0D7;
+
+position: relative;
+top: 8px;
+left: 5px;
+
+
+}
+
+.CXHero_container{
+    font-family: Neo Sans Arabic;
+    max-width: 85%;
+    padding-bottom: 30px;
+
+}
+
+.center_align div div{
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+
+.form-control button{
+background-color: #00A0D7;
+}
+
+.form-control[type=file]:not(:disabled):not([readonly]) button{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.file_upload{
+    background-color: #00A0D7;
+    width: 41px;
+    height: 41px;
+    padding-left: 10px;
+    padding-top: 7px;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+}
+
+input#file-upload-button {
+    background-color: yellow;
+}
+
+.cx_winner{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
+
+#file-chosen{
+ 
+    border: 1px solid #cecece;
+    /* color: yellowgreen; */
+    padding-top: 8px;
+    padding-bottom: 12px;
+    /* width: 214px; */
+    border-radius: 0px 10px 10px 0px;
+    /* width: 37%; */
+    /* height: 200px; */
+    /* min-width: 253px; */
+    padding-right: 382px;
+    
+}
+
+.submit_hero{
+    width: 13%;
+    float: right;
+    margin-top: 28px;
+    background-color: #00A0D7;
+    border-color: #00A0D7;
+    height: 36px;
+}
+
+#hero_submit{
+    justify-content: right;
+}
+
+.submit_hero:hover {
+    color: #fff;
+    background-color: #00A0D7;
+    border-color: #00A0D7;
+}

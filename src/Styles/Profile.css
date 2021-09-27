@@ -1,0 +1,111 @@
+
+
+.Profile_img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+
+   
+        /* display: block;
+        min-width:30px;
+        min-height:30px;
+        width: auto;
+        height: auto; */
+      
+}
+
+.profile_div{
+    font-family: Neo Sans Arabic;
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+}
+
+.profile_div_span1{
+    font-weight: bolder;
+    color: #00A0D7;
+    font-size: 25px;
+}
+
+.profile_div_span2{
+  
+    font-size: 17px;
+}
+
+.Badges_cont{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    font-family: Neo Sans Arabic;
+    font-weight: bolder;
+    font-size: 19px;
+    padding: 20px 15px 30px 15px;
+
+}
+
+
+.progress{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.Progress_cont{
+    font-family: Neo Sans Arabic;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    font-size: 19px;
+    padding: 20px 15px 46px 20px;
+
+
+}
+
+/* .Progress_cont div{
+    display: inline;
+} */
+
+.bg-info{
+    background-color: #00A0D7;
+}
+
+.bg-danger{
+    background-color: #F45197 !important;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.icon{
+    position: relative;
+    left: -20px;
+    top: -4px;
+}
+
+#profile_title{
+    margin-bottom: 40px;
+}
+
+#info_row{
+    height: 185px;
+}
+
+.score_span{
+    background-color: white;
+    color: #00A0D7;
+    border-radius: 100%;
+    border: 2px solid #00A0D7;
+    padding: 7px 5px 7px 5px;
+    font-weight: bolder;
+    font-size: 12px;
+    position: relative;
+    left: 111px;
+    top: -35px;
+}
