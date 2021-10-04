@@ -27,7 +27,7 @@ export default function CXHero(props){
 
         <Breadcrumb>
         <Breadcrumb.Item onClick={()=>{setPage('DashBoard')}} style={{color: '#00A0D7'}}>Dashboard</Breadcrumb.Item>
-        <Breadcrumb.Item onClick={()=>{setPage('CXHero')}} style={{color: 'grey'}}>
+        <Breadcrumb.Item onClick={()=>{setPage('Certificate')}} style={{color: 'grey'}}>
             CX Hero
         </Breadcrumb.Item>
         </Breadcrumb>
@@ -53,9 +53,11 @@ export default function CXHero(props){
 
         <Row>
             <Col className="center_align">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tortor aenean lectus et in sit est adipiscing.
-                Nec feugiat non dui ut amet morbi sem aenean integer. Massa risus vel vitae volutpat mattis 
-                fames proin cursus a. Ac, vestibulum quis lectus nunc tellus.</p>
+            <p>We believe that your role in enhancing the customer experience is
+                 essential, we appreciate your efforts to share with us your success story, 
+                 while dealing with one of our customers, let us tell our stories and publish it
+                  within Paltel family to help in spreading the 
+                culture and follow your steps to gain customer happiness.</p>
             </Col>
         </Row>
 
